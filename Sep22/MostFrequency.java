@@ -8,7 +8,8 @@ class MostFrequency{
 
       public static void main(String[] args){
           int[] nums = {1,2,3,2,1,3,4};
-          System.out.println(mostFreq(nums));
+          int ans = mostFreq(nums);
+          System.out.println(ans);
       }
 
       static int mostFreq(int[] nums){
